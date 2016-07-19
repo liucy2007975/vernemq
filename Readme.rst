@@ -18,7 +18,6 @@ VerneMQ implements the MQTT 3.1 and 3.1.1 specifications, integration of MQTT-SN
 * Bridge Support
 * $SYS Tree for monitoring and reporting
 * TLS (SSL) Encryption
-* Dynamic Topics
 * Websockets Support
 * Cluster Support
 * SNMP Monitoring
@@ -31,15 +30,20 @@ VerneMQ implements the MQTT 3.1 and 3.1.1 specifications, integration of MQTT-SN
 * Message load shedding (for system protection)
 * Offline Message Storage (based on LevelDB)
 * Queue can handle messages FIFO or LIFO style.
+* MongoDB integration (via. `vmq_diversity <https://github.com/erlio/vmq_diversity>`_)
+* Redis integration (via. `vmq_diversity <https://github.com/erlio/vmq_diversity>`_)
+* MySQL integration (via. `vmq_diversity <https://github.com/erlio/vmq_diversity>`_)
+* PostgreSQL integration (via. `vmq_diversity <https://github.com/erlio/vmq_diversity>`_)
+* Webhooks (via. `vmq_diversity <https://github.com/erlio/vmq_diversity>`_)
 
 Commercial Support. Binary Packages. Documentation
 --------------------------------------------------
 
 Below you'll find a basic introduction to building and starting VerneMQ. For more
 information about the binary package installation, configuration, and administration 
-of VerneMQ, please visit our documentation at `VerneMQ Documentation <https://verne.mq/docs>`_ 
-or checkout the product page `VerneMQ <https://verne.mq>`_ if you require more
-information on the available commercial `support options <https://verne.mq/services.html>`_.
+of VerneMQ, please visit our documentation at `VerneMQ Documentation <https://vernemq.com/docs>`_ 
+or checkout the product page `VerneMQ <https://vernemq.com>`_ if you require more
+information on the available commercial `support options <https://vernemq.com/services.html>`_.
 
 Quick Start
 -----------
@@ -80,7 +84,7 @@ Important links
 ~~~~~~~~~~~~~~~~
 
 * \#vernemq on freenode IRC
-* `VerneMQ User Mailing List <http://verne.mq/mailman/listinfo/vernemq-list_verne.mq>`_ 
-* `VerneMQ Documentation <http://verne.mq/docs>`_ 
+* `VerneMQ User Mailing List <http://vernemq.com/mailman/listinfo/vernemq-list_verne.mq>`_ 
+* `VerneMQ Documentation <http://vernemq.com/docs>`_ 
 * `Follow us on Twitter (@vernemq)! <https://twitter.com/vernemq>`_ 
 
